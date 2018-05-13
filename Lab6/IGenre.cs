@@ -8,7 +8,7 @@ namespace Lab6
 {
     interface IGenre
     {
-      Sale Book_Genre { get; set; }
+      Good Book_Genre { get; set; }
       
     }
 }

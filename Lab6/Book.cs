@@ -23,7 +23,7 @@ namespace Lab6
         }
         public override string gd()
         {
-            return Good_Name + "," + Book_Title + "," + Price + "," + Book_Author + "," + Book_Genre + "," + Book_Publisher;
+            return "Наименование товара: "  + Good_Name + ";" +"Заголовок: "+ Book_Title + ";" + "Цена: "+Price + ";" + "Автор: "+ Book_Author + ";"+"Жанр книги: " + Book_Genre + ";"+"Издательство: " + Book_Publisher;
         }
     }
 }

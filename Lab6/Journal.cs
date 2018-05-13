@@ -19,7 +19,7 @@ namespace Lab6
         public override string gd()
         {
        
-           return Good_Name + ";" + Book_Title + ";"  + Price + ";"  + DataOfPublic;
+           return "Название товара: "+ Good_Name + ";"+"Заголовок: " + Book_Title + ";"+"Цена: "  + Price + ";"+"Дата издания: " + DataOfPublic;
 
         }
     }
